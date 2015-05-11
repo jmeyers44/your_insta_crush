@@ -16,6 +16,8 @@ gem 'launchy'
 gem 'activerecord', :require => "active_record"
 gem 'sqlite3'
 gem 'rest-client'
+gem 'omniauth'
+gem 'omniauth-instagram'
 
 group :test do
   gem 'rspec'

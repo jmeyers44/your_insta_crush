@@ -1,0 +1,30 @@
+<head>
+<link href="<%= url('/stylesheets/style.css') %>" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet">
+</head>
+<body>
+  
+<p class="heading">Your Instacrush is</p>
+<p class="insta_result"><%= @like_hash.keys[0]%> </p>
+<h2 class="like"><%=@like_hash.values[0] %> likes</h2>
+
+<a href="/new_user"><div class="heart"></div></a>
+<div style="display:none"><iframe src="https://instagram.com/accounts/logout/" width="0" height="0"></iframe></div>
+
+
+
+
+<!-- 
+
+<h2>Out of your last <%=@photo_count%> pictures</h2>
+<% count = 1 %>
+<% @like_hash.each do |name| %>
+
+  
+  <p><%= count %>: <%=name[0]%> => <%= name[1].to_s << " likes" %></p>
+  <% count += 1 %>
+
+<% end %>
+-->
+
+</body>
