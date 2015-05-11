@@ -7,7 +7,7 @@ require 'omniauth'
 require 'omniauth-instagram'
 
 class App < Sinatra::Base
-  keys = YAML.load_file('./models/keys.yml')
+  keys = YAML.load_file('keys.yml')
   use Rack::Session::Cookie
   use OmniAuth::Strategies::Developer
   use OmniAuth::Builder do
