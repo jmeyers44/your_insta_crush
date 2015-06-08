@@ -1,0 +1,21 @@
+<p class="heading">Your Instacrush is</p>
+<p class="insta_result"><%= @like_hash.first[0]%> </p>
+<h2 class="like"><%=@like_hash.first[1] %> likes</h2>
+
+<a href="/"><div class="heart"></div></a>
+<div style="display:none"><iframe src="https://instagram.com/accounts/logout/" width="0" height="0"></iframe></div>
+<br>
+<br>
+<div style="text-align:center;">
+<div style="margin-top:400px;margin-left">
+<h3>2: <%=@like_hash.second[0]%> => <%= @like_hash.second[1].to_s << " likes" %></h3>
+
+
+<h4>3: <%=@like_hash.third[0]%> => <%= @like_hash.third[1].to_s << " likes" %></h4>
+
+
+<h5>4: <%=@like_hash.fourth[0]%> => <%= @like_hash.fourth[1].to_s << " likes" %></h5>
+
+<h6>5: <%=@like_hash.fifth[0]%> => <%= @like_hash.fifth[1].to_s << " likes" %></h6>
+</div>
+</div>

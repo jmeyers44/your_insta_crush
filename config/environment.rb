@@ -1,13 +1,5 @@
-ENV['SINATRA_ENV'] ||= "development"
+# Load the Rails application.
+require File.expand_path('../application', __FILE__)
 
-# here we're using bundler to require all of our dependencies in the Gemfile
-
-require 'bundler/setup'
-Bundler.require(:default, ENV['SINATRA_ENV'])
-
-# requiring the app.rb file:
-require './app'
-
-require_all 'models'
-
-
+# Initialize the Rails application.
+Rails.application.initialize!

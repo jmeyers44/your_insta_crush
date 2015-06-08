@@ -1,0 +1,12 @@
+<h1>LOADING</h1>e
+<div id="user_id" style="visibility:hidden;"><%= session[:guest_user_id]%></div>
+<script>
+    function calculateCrush (){
+      var user_id = $('#user_id').text();
+      $.post("/users/crush").always(function(){
+          window.location = "/users/"+user_id
+        }
+      )
+    };
+    calculateCrush();
+</script> 
