@@ -14962,3 +14962,53 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/GitHub-Mark-Light-32px-6b4582ced3c5b039423243207f470dcba7288918131657f89e9bdcada6fa8a40.png" for ::1 at 2015-06-08 22:32:56 -0400
+
+
+Started GET "/" for ::1 at 2015-06-09 08:53:28 -0400
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 188ms (Views: 181.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2015-06-09 08:53:31 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (4.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Redirected to https://api.instagram.com/oauth/authorize/?client_id=32ab004d8cb248b2b81a5072ae8341e2&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth%2Finstagram%2Fcallback&response_type=code
+Completed 403 Forbidden in 11ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/auth/instagram/callback?code=89269b350da9408699a5188c7ff5b25d" for ::1 at 2015-06-09 08:55:04 -0400
+Processing by UsersController#callback as HTML
+  Parameters: {"code"=>"89269b350da9408699a5188c7ff5b25d"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  Rendered users/loading.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 434ms (Views: 46.5ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/users/crush" for ::1 at 2015-06-09 08:55:04 -0400
+Processing by UsersController#crush as */*
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 37503ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/users/1" for ::1 at 2015-06-09 08:55:42 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 50.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for ::1 at 2015-06-09 08:55:42 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 43ms (Views: 26.0ms | ActiveRecord: 0.5ms)
