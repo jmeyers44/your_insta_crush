@@ -11485,3 +11485,13 @@ Started GET "/" for ::1 at 2015-06-08 21:06:38 -0400
 Processing by UsersController#index as HTML
   Rendered users/index.html.erb within layouts/application (1.3ms)
 Completed 200 OK in 152ms (Views: 145.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-08 21:11:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 174ms (Views: 166.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-72031b9fcb98cf3274ad77c55008fc37872b4a1bfa3f10ab97d5ef292468b769.css?body=1" for ::1 at 2015-06-08 21:11:32 -0400
