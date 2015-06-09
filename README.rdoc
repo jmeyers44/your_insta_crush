@@ -1,28 +1,12 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Instacrush was the first app I created as a student at the Flatiron School in New York City. The app works makes use of OAuth and the Instagram API. I use the two endpoints to get all user media ids (every picture the user has taken) and then every like for every picture. I store the final values in a hash formatted as user_name => like_count. The hash is sorted by like_count desc and then the top 5 results are shown to the user. 
 
-Things you may want to cover:
+Future improvments...
 
-* Ruby version
+Depending on the amount of photos a user has and the amount of total likes that user has, the number of API requests can be quite high. All of these web requests and pagination can lead to a lengthy bottleneck. One way to speed this up would be to return fewer pages from the Instagram API by only asking for the information nescessary for the purposes of the app. It also is worth exploring a different method of making requests to the API. For example, instead of gettting every media ID and then going and getting every page of likes from that media ID, the like request could be made as soon as the first page of media ID results is returned. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Feel free to submit a pull request with any improvments you may have! 
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+

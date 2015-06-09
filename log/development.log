@@ -15012,3 +15012,143 @@ Processing by UsersController#show as HTML
   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
   Rendered users/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 43ms (Views: 26.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-06-09 09:12:27 -0400
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-09 09:13:05 -0400
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 113ms (Views: 112.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-abdb6310699c72b0d9befc696a9b0374b108d447ff7f58d0b81fa61ad10581de.css?body=1" for ::1 at 2015-06-09 09:13:05 -0400
+
+
+Started GET "/assets/application.self-d6b95363866e2b476c549d6fb9d5aff8e35e4bb1cac4e0e68754b6f5c7867d8e.css?body=1" for ::1 at 2015-06-09 09:13:05 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-09 09:13:05 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-09 09:13:05 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-09 09:13:05 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-09 09:13:05 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-09 09:13:05 -0400
+
+
+Started GET "/assets/GitHub-Mark-Light-32px-6b4582ced3c5b039423243207f470dcba7288918131657f89e9bdcada6fa8a40.png" for ::1 at 2015-06-09 09:13:05 -0400
+
+
+Started GET "/" for ::1 at 2015-06-09 09:13:10 -0400
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 137ms (Views: 136.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-2d49261788e24e3754de135e3405927c0fac69619ed62cf0ac0bd31c28e4063f.css?body=1" for ::1 at 2015-06-09 09:13:10 -0400
+
+
+Started GET "/assets/application.self-d6b95363866e2b476c549d6fb9d5aff8e35e4bb1cac4e0e68754b6f5c7867d8e.css?body=1" for ::1 at 2015-06-09 09:13:10 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-09 09:13:10 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-09 09:13:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-09 09:13:10 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-09 09:13:10 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-09 09:13:10 -0400
+
+
+Started GET "/assets/GitHub-Mark-Light-32px-6b4582ced3c5b039423243207f470dcba7288918131657f89e9bdcada6fa8a40.png" for ::1 at 2015-06-09 09:13:10 -0400
+
+
+Started GET "/" for ::1 at 2015-06-09 09:13:15 -0400
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 122ms (Views: 121.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-09 09:13:16 -0400
+
+
+Started GET "/assets/application.self-d6b95363866e2b476c549d6fb9d5aff8e35e4bb1cac4e0e68754b6f5c7867d8e.css?body=1" for ::1 at 2015-06-09 09:13:16 -0400
+
+
+Started GET "/assets/users.self-8c437d3b410bd2c1bb515d6fbae614e37b45a7638b6aa65a4f6dfed221dc67a8.css?body=1" for ::1 at 2015-06-09 09:13:16 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-09 09:13:16 -0400
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-09 09:13:16 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-06-09 09:13:16 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-06-09 09:13:16 -0400
+
+
+Started GET "/assets/GitHub-Mark-Light-32px-6b4582ced3c5b039423243207f470dcba7288918131657f89e9bdcada6fa8a40.png" for ::1 at 2015-06-09 09:13:16 -0400
+
+
+Started GET "/users/new" for ::1 at 2015-06-09 09:13:30 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Redirected to https://api.instagram.com/oauth/authorize/?client_id=32ab004d8cb248b2b81a5072ae8341e2&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth%2Finstagram%2Fcallback&response_type=code
+Completed 403 Forbidden in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/auth/instagram/callback?code=da02f323e02b42d6bd03926cd963bfa5" for ::1 at 2015-06-09 09:13:34 -0400
+Processing by UsersController#callback as HTML
+  Parameters: {"code"=>"da02f323e02b42d6bd03926cd963bfa5"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  Rendered users/loading.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 306ms (Views: 25.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/users/crush" for ::1 at 2015-06-09 09:13:35 -0400
+Processing by UsersController#crush as */*
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 37684ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/users/1" for ::1 at 2015-06-09 09:14:12 -0400
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 86ms (Views: 67.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/users/1" for ::1 at 2015-06-09 09:14:13 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 82ms (Views: 62.6ms | ActiveRecord: 0.3ms)
